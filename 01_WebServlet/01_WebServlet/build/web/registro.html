@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>registro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Introduce tus datos</h1>
+        <form name="formreg" method="post" action="http://localhost:8084/01WebServlet/regist">    
+            <table border="1">
+                <tr><td>Nombre:</td><td>
+                <input type="text" name="nom" id="nom" size="25" value=""required/></td></tr>
+                <tr><td>Edad:</td><td>
+                <input type="number" name="eda" id="eda" size="2" value="" required/></td></tr>
+                <tr><td>Email:</td><td>
+                <input type="text" name="mail" id="mail" size="30" value="" required/></td></tr>
+                <tr><td>Contraseña:</td><td>
+                <input type="text" name="pass" id="pass" size="12" value="" required/></td></tr>
+            </table>
+            <input type="submit" value="Enviar"/>
+        </form>
+    </body>
+</html>
