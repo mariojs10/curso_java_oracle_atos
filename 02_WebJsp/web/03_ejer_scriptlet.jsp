@@ -12,11 +12,16 @@
         <title>Tablas de multiplicar</title>
     </head>
     <body>
-        <h1 align="center">Tablas</h1>
+        <h1 align="center">Tablas de multiplicar</h1>
+        <%!
+        // Declaraciones
+        %>
         <%-- Muestra una Table cons sus TRs, TDs,
                 de la tabla de multiplicar del 7 con JSP --%>
+        
             <% for (int k = 1; k < 11; k++) { %>
-                <table border="1" align="center">
+            
+                <table style="border-width: 4px; border-style: double; display: inline-block;">
                     <th colspan="5">tabla del <%= k %></th>
                 <% for (int i = 1; i < 11; i++){ %>
                     <tr>
